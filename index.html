@@ -5,6 +5,9 @@
     <title>Personal Blog</title>
     <!-- <link rel="shortcut icon" href="assets/images/Logo.png" type="image/png"> -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/js/main.js"></script>
 </head>
 <body>
@@ -14,8 +17,11 @@
             <img src="assets/image/sumant.png" alt="An SVG of Joe's face" style="border-radius: 50%; width: 50%;">
             <a href="#home"><i class="material-icons md-36"></i><p>Home</p></a>
             <a href="#about"><i class="material-icons md-36"></i><p>About</p></a>
-            <a href="#projects"><i class="material-icons md-36"></i><p>Folio</p></a>
+            <a href="#projects"><i class="material-icons md-36"></i><p>Education</p></a>
+            <a href="#projects"><i class="material-icons md-36"></i><p>Volunteer Experience</p></a>
+            <a href="#timeline"><i class="material-icons md-36"></i><p>Projects</p></a>
             <a href="#contact"><i class="material-icons md-36"></i><p>Contact</p></a>
+            <a href="#socialmedia"><i class="material-icons md-36"></i><p>Social media</p></a>
     
         </nav>
     </aside>
@@ -23,8 +29,11 @@
     <nav class="mobile-nav">
         <a href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#projects">Folio</a>
+        <a href="#projects">Education</a>
+        <a href="#projects">Volunteer Experience</a>
+        <a href="#timeline">Projects</a>
         <a href="#contact">Contact</a>
+        <a href="#socialmedia">Social Media</a>
     </nav>
     
     <main>
@@ -36,15 +45,21 @@
             <img src="https://res.cloudinary.com/dh6t4ltsf/image/upload/v1530240864/Portfolio/Group.svg" alt="An SVG of Joe's face">
         </header>
         </section>
-        
+        <br><br><br>
     
         <section class="about" id="about">
             <h2>About me</h2>
             <p>
-                I'm a designer, developer, life long learner, and ready for new opportunities. A bit about me. I love music, the arts, tech and all things creative.
+                I'm a fun loving, life long learner, and ready for new opportunities. A bit about me. I love music, the arts, tech and all things creative.
             </p>
             <p>
-                I believe in user centered design and delivering the best possible experiences to people. I have experience with HTML, CSS, Bootstrap, Flexbox, Javascript, jQuery, WordPress, Ruby and Rails, Git, Github, Figma, and Photoshop.
+                I believe in Project based learning rather than theoretical learning and team work.
+            </p>
+            <p>
+                I wants to travel some new place for experiences || Pets lover specially Dogs
+            </p>
+            <p>
+                I believe in delivering the best possible experiences to people. I have experience with HTML, CSS, Bootstrap, Python, Django, Git, Github, C++, OpenCV, Microcontroller, Labview, NI instruments, adruino IDE & NodeMCU.
             </p>
     
             <h3>MY SKILLS</h3>
@@ -76,40 +91,103 @@
             <!-- End skills bar -->
         </section>
         <!-- End about -->
-    
-        <section class="folio" id="projects">
-            <h2>Folio</h2>
+        <br><br><br>
+        <section class="resume" id="projects">
+            <h2>Education and<br>Volunteer Experience</h2>
     
             <!-- Portfolio Gallery Grid -->
-            <div class="row-halves">
-                <div class="col">
-                    <a href="http://jo-romero.com/artbyfred/"><img src="https://res.cloudinary.com/dh6t4ltsf/image/upload/v1530324414/Portfolio/art-by-fred.jpg" alt="A screen shot of jo-romero.com/artbyfred"></a>
-                    <h3>Art Portfolio</h3>
-                    <p>A simple art portfolio site for a talented local artist.</p>
+            <div class="func">
+                <div class="edu">
+                    <h3><i class="fa fa-graduation-cap"></i>    Education</h3>
+                    <ul>
+                      <li><span>College</span><small>SIT, Tumkur<br>Electronics & <br>Telecommunication Engineering</small><small>Aug. 2017 - May. 2021</small></li>
+                      <li><span>Coaching</span><small>Mentors Eduserve</small><small>Sept. 2015 - July. 2017</small></li>
+                      <li><span> School</span><small>Kendriya vidyalaya, Muzaffarpur</small><small>Mar. 2005 - May. 2015</small></li>
+                    </ul>
+                  </div>
+                <div class="work">
+                  <h3><i class="fa fa-briefcase"></i>     Experience</h3>
+                  <ul>
+                    <li><span>Web Developer</span><small>Team SARK<br>Technical Club of SIT, Tumkur</small><small>Dec. 2017 - Now</small></li>
+                    <li><span>Event Organiser</span><small>Tech-Expo<br>National level Team SARK flagship event</small><small>Sept. 2018</small></li>
+                    <li><span>Student Volunteer</span><small>Technisium 2k18<br>Circuit branch fest of SIT, Tumkur</small><small>Mar. 2018</small></li>
+                  </ul>
                 </div>
-                <div class="col">
-                    <a href="http://jo-romero.com/twistedtft/"><img src="https://res.cloudinary.com/dh6t4ltsf/image/upload/v1530323585/Portfolio/twistedtft.jpg" alt="A screen shot of jo-romero.com/twistedtft"></a>
-                    <h3>Mobile Food</h3>
-                    <p>A client site for folks looking for some delicous food.</p>
+                
                 </div>
-            </div>
-    
-            <div class="row-halves">
-                <div class="col">
-                    <img src="https://res.cloudinary.com/dh6t4ltsf/image/upload/v1530324414/Portfolio/roofing.jpg" alt="A screen shot of a roof">
-                    <h3>Local Business</h3>
-                    <p>A great solution for a local roofing company.</p>
-                </div>
-                <div class="col">
-                    <img src="https://res.cloudinary.com/dh6t4ltsf/image/upload/v1530324414/Portfolio/makeup.jpg" alt="A screen shot of a makeup kit">
-                    <h3>Personal Blog</h3>
-                    <p>Simple, fun, elegant personal blog for a makeup artist.</p>
-                </div>
-            </div>
             <!-- END GRID -->
         </section>
         <!-- End folio -->
+        <br><br><br>
+        <section id="timeline" class="timeline">
+            <h2>Projects</h2>
+        </section>
+        <section id="cd-timeline" class="cd-container">
+            
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture">
+                </div>
     
+                <div class="cd-timeline-content">
+                    <h2>Eyes for blind</h2>
+            <div class="timeline-content-info">
+              <span class="timeline-content-info-title">
+                <i class="fa fa-certificate" aria-hidden="true"></i>
+                Medicine Detection Part
+              </span>
+              <span class="timeline-content-info-date">
+                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                Oct. 2019 - Present
+              </span>
+            </div>
+                    <p>One of the problem for visually impaired individuals is that they are mostly been cheated during money transactions such as they are not able to distinguish between different currency and also they face difficulty in taking their medicines as most of the medicine tablets are in same in size so, they face difficulty in identifying that which medicine they need to take in what quantity and at what time.</p>
+            <ul class="content-skills">
+            <li>Django</li>
+            <li>Python</li>
+            <li>Machine Learning</li>
+            <li>Image processing</li>
+            <li>OpenCV</li>
+            <li>OCR</li>
+            </ul>
+            <center><button style="font-size:16px" href="https://github.com/mastersumant/mini_project/">GitHub repo <i class="fa fa-github"></i></center>
+                </div> <!-- cd-timeline-content -->
+                
+            </div> <!-- cd-timeline-block -->
+            
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture">
+                </div>
+    
+                <div class="cd-timeline-content">
+                    <h2>Technisium 2020 website design</h2>
+            <div class="timeline-content-info">
+              <span class="timeline-content-info-title">
+                <i class="fa fa-certificate" aria-hidden="true"></i>
+                Frontend Part
+              </span>
+              <span class="timeline-content-info-date">
+                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                Mar. 2020
+              </span>
+            </div>
+                    <p>Technisium is the national fest for electronics students organised in Siddaganga Institute of Technology, Tumkur. Technisium is the
+
+                        branch fest for four departments including Electronics and Instrumentation ,Electrical and Electronics ,Electronics and Communication
+                        
+                        and Electronics and Telecommunication. This year Technisium is schduled on 14th MARCH,2020.
+                        
+                        Register in various events to be a part of Technisium and gain tremondous experience from various events.</p>
+            <ul class="content-skills">
+                <li>HTML</li>
+                <li>CSS3</li>
+                <li>js</li>
+                <li>Bootstrap</li>
+            </ul>
+                </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+            
+        </section> <!-- cd-timeline -->
+        <br><br><br>
         <section class="contact" id="contact">
             <h2>Contact</h2>
             <div class="container">
@@ -120,19 +198,21 @@
                     <input type="text" id="email" name="email">
                     <label for="message">Message</label>
                     <textarea id="message" name="message" style="height:200px"></textarea>
-                    <input type="submit" value="message">
+                    <input type="submit" href="#"value="message">
                 </form>
             </div>
         </section>
-    
-        <footer>
+        <br><br><br>     
+        <footer id="socialmedia">
             <section class="top-bar">
-                <a href="https://codepen.io/jar36/#"><i class="fab fa-codepen"></i></a>
-                <a href="https://twitter.com/jojo33r"><i class="fab fa-twitter"></i></a>
-                <a href="https://github.com/Jar36"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/mastersumant"><i class="fa fa-facebook-square"></i></a>
+                <a href="https://www.linkedin.com/in/mastersumantkvs/"><i class="fa fa-linkedin-square"></i></a>
+                <a href="https://twitter.com/mastersumantkvs"><i class="fa fa-twitter"></i></a>
+                <a href="https://github.com/mastersumant"><i class="fa fa-github"></i></a>
+                <a href="https://www.instagram.com/imsumant/"><i class="fa fa-instagram"></i></a>
             </section>
             <section class="bottom-bar">
-                <p>&copy 2019 | All rights reserved</p>
+                <p>&copy All rights reserved</p>
             </section>
         </footer>
     </main>
