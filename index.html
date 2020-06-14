@@ -12,47 +12,44 @@
     <script src="assets/js/main.js"></script>
 </head>
 <body>
-    <aside>
-        <nav id="navbar">
-    
-            <img src="assets/image/sumant.png" alt="An SVG of Joe's face" style="border-radius: 50%; width: 50%;">
-            <a href="#home"><i class="material-icons md-36"></i><p>Home</p></a>
-            <a href="#about"><i class="material-icons md-36"></i><p>About</p></a>
-            <a href="#projects"><i class="material-icons md-36"></i><p>Folio</p></a>
-            <a href="#contact"><i class="material-icons md-36"></i><p>Contact</p></a>
-    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">My Skills</a></li>
+            <li><a href="#projects">Education</a></li>
+            <li><a href="#projects">Experience</a></li>
+            <li><a href="#timeline">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="button">
+            <a class="btn-open" href="#"></a>
+        </div>
         </nav>
-    </aside>
-    
-    <nav class="mobile-nav">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Folio</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-  <div class="menu-item">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#projects">Education</a>
-    <a href="#projects">Volunteer Experience</a>
-    <a href="#timeline">Projects</a>
-    <a href="#contact">Contact</a>
-  </div>
-</div>
-</div>
-    <main class="center">
-        <section id="welcome-section">
-            <header class="home" id="home">
+        <div class="overlay">
+            <div class="wrap">
+                <ul class="wrap-nav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">My Skills</a></li>
+                    <li><a href="#projects">Education</a></li>
+                    <li><a href="#projects">Experience</a></li>
+                    <li><a href="#timeline">Project</a></li>
+                    <li><a href="#contact">Contact</a></li> 
+                </ul>
+                
+            </div>
+        </div>
+        
+        <section id="welcome-section" class="center">
+            <header class="home content" id="home">
+            <img src="https://res.cloudinary.com/dh6t4ltsf/image/upload/v1530240864/Portfolio/Group.svg" alt="An SVG of Joe's face">
             <h1>Hello, I'm Sumant</h1>
             <h5>Designer // Developer</h5>
             <h5>Traveler // Sports lover</h5>
-            <img src="https://res.cloudinary.com/dh6t4ltsf/image/upload/v1530240864/Portfolio/Group.svg" alt="An SVG of Joe's face">
         </header>
         </section>
         <br><br><br>
     
-        <section class="about" id="about">
+        <section class="about center" id="about">
             <h2>About me</h2>
             <p>
                 I'm a fun loving, life long learner, and ready for new opportunities. A bit about me. I love music, the arts, tech and all things creative.
@@ -66,8 +63,9 @@
             <p>
                 I believe in delivering the best possible experiences to people. I have experience with HTML, CSS, Bootstrap, Python, Django, Git, Github, C++, OpenCV, Microcontroller, Labview, NI instruments, adruino IDE & NodeMCU.
             </p>
-    
-            <h3>MY SKILLS</h3>
+        </section>
+        <section class="about center" id="skills">
+            <h2>MY SKILLS</h2>
     
             <p>Python</p>
             <div class="container">
@@ -97,7 +95,7 @@
         </section>
         <!-- End about -->
         <br><br><br>
-        <section class="resume" id="projects">
+        <section class="resume center" id="projects">
             <h2>Education and<br>Volunteer Experience</h2>
     
             <!-- Portfolio Gallery Grid -->
@@ -125,9 +123,9 @@
         <!-- End folio -->
         <br><br><br>
         <section id="timeline" class="timeline">
-            <h2>Projects</h2>
+            <h2 style="margin-left: 11%;">Projects</h2>
         </section>
-        <section id="cd-timeline" class="cd-container">
+        <section id="cd-timeline" class="cd-container center">
             
             <div class="cd-timeline-block">
                 <div class="cd-timeline-img cd-picture">
@@ -145,7 +143,7 @@
                 Oct. 2019 - Present
               </span>
             </div>
-                    <p>One of the problem for visually impaired individuals is that they are mostly been cheated during money transactions such as they are not able to distinguish between different currency and also they face difficulty in taking their medicines as most of the medicine tablets are in same in size so, they face difficulty in identifying that which medicine they need to take in what quantity and at what time.</p>
+                    <p>Medicine and Currency Detection for blind persons</p>
             <ul class="content-skills">
             <li>Django</li>
             <li>Python</li>
@@ -154,7 +152,6 @@
             <li>OpenCV</li>
             <li>OCR</li>
             </ul>
-            <center><button style="font-size:16px" href="https://github.com/mastersumant/mini_project/">GitHub repo <i class="fa fa-github"></i></center>
                 </div> <!-- cd-timeline-content -->
                 
             </div> <!-- cd-timeline-block -->
@@ -175,13 +172,7 @@
                 Mar. 2020
               </span>
             </div>
-                    <p>Technisium is the national fest for electronics students organised in Siddaganga Institute of Technology, Tumkur. Technisium is the
-
-                        branch fest for four departments including Electronics and Instrumentation ,Electrical and Electronics ,Electronics and Communication
-                        
-                        and Electronics and Telecommunication. This year Technisium is schduled on 14th MARCH,2020.
-                        
-                        Register in various events to be a part of Technisium and gain tremondous experience from various events.</p>
+                    <p>Participated in website designing for Technisium 2020</p>
             <ul class="content-skills">
                 <li>HTML</li>
                 <li>CSS3</li>
@@ -193,7 +184,7 @@
             
         </section> <!-- cd-timeline -->
         <br><br><br>
-        <section class="contact" id="contact">
+        <section class="contact center" id="contact">
             <h2>Contact</h2>
             <div class="container">
                 <form action="action_page.php">
@@ -220,7 +211,5 @@
                 <p>&copy All rights reserved</p>
             </section>
         </footer>
-    </main>
-
 </body>
 </html>
