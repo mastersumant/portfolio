@@ -25,7 +25,7 @@ a {
 }
 
 img {
-	width: 100%;
+	width: 50%;
 }
 
 .home img {
@@ -485,7 +485,7 @@ footer {
 	}
 
 	header {
-		margin-top: 80px;
+		margin-top: 0;
 	}
 
 	header h1 {
@@ -497,38 +497,10 @@ footer {
 		font-size: 1em;
 		letter-spacing: 2px;
 	}
-
-	.mobile-nav {
-		position: fixed;
-		width: 100%;
-		display: flex;
-		justify-content: space-around;
-		background: rgba(0, 0, 0, 0.8);
-		z-index: 1;
-	}
-
-	.mobile-nav a {
-		width: 100%;
-		color: #b2b2b2;
-		text-transform: uppercase;
-		font-size: 0.875em;
-		letter-spacing: 2px;
-		text-align: center;
-		padding: 10px 10px;
-		transition: all 0.35s;
-	}
-
-	.mobile-nav a:hover {
-		background: #b2b2b2;
-		color: #222;
-	}
+	
 }
 
-@media (min-width: 600px) {
-	.mobile-nav {
-		display: none;
-	}
-}
+
 
 /*=========== project css=========*/
 
@@ -882,6 +854,17 @@ html, body {
 	padding: 10px;
   }
 
-  /* back to top  */
+  /* footer  */
+  .me {
+	display: block;
+	margin: 2em auto;
+	margin-bottom: 3em;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: relative;
+	z-index: 2;
+}
 
-  
+  /* slider */
+

@@ -76,3 +76,4 @@ $('.overlay').on('click', function(){
     $(".button a").toggleClass('btn-open').toggleClass('btn-close');
     open = false;
 });
+
