@@ -61,7 +61,7 @@ nav ul li {
 	display:inline-block;
 }
 nav ul li a {
-	color:#333;
+	color: white;
 	display:inline-block;
 	padding:1em 3em;
 	text-decoration:none;
@@ -88,7 +88,7 @@ nav ul li a:hover {
 	text-decoration:none;
 }
 .btn-open:after {
-	color:#333;
+	color: white;
 	content:"\f0c9";
 	font-family:"FontAwesome";
 	transition-property:all .2s linear 0s;
@@ -212,6 +212,7 @@ header h1 {
 	font-weight: 300;
 	font-size: 4em;
 	letter-spacing: 4px;
+	color: turquoise;
 }
 
 header h5 {
