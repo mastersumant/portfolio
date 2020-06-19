@@ -7,7 +7,7 @@ if (!empty($mail)){
 if (!empty($message)){
 $host = "localhost";
 $dbusername = "root";
-$dbpassword = "";
+$dbpassword = "%m_M4i6KEO[h([BZ";
 $dbname = "portfolio";
 // Create connection
 $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);

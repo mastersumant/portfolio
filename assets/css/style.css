@@ -29,7 +29,7 @@ img {
 }
 
 .home img {
-	width: 100%;
+	width: 50%;
 	-webkit-filter: grayscale(100%) contrast(100%); 
 	filter: grayscale(100%) contrast(200%) brightness(90%);
 }
@@ -186,7 +186,7 @@ nav ul li a:hover {
 }
 .content {
 	width:100%;
-	margin-top:200px;
+	margin-top:0px;
 	font-size:20px;
 	color: #333;
 	text-align: center;
@@ -868,4 +868,3 @@ html, body {
 }
 
   /* slider */
-
