@@ -141,7 +141,7 @@ nav ul li a:hover {
 	position:relative;
 }
 .wrap ul.wrap-nav li a {
-	color:#34B484;
+	color:turquoise;
 	display:block;
 	padding:8px 0;
 	text-decoration:none;
@@ -240,7 +240,7 @@ header h5 {
 	padding-bottom: 10px;
 	margin: 100px 0 0 0;
 	letter-spacing: 4px;
-	color: #3f51b5;
+	color: turquoise;
 }
 
 .about p {
@@ -296,7 +296,7 @@ header h5 {
 	padding-bottom: 10px;
 	margin: 100px 0 0 0;
 	letter-spacing: 4px;
-	color: #3f51b5;
+	color: turquoise;
 }
 .resume .func .work,
 .resume .func .edu {
@@ -409,7 +409,7 @@ textarea {
 form input[type="text"]:focus,
 textarea:focus {
 	outline: none;
-	border: 1px solid #3f51b5;
+	border: 1px solid turquoise;
 }
 
 input[type="submit"] {
@@ -423,7 +423,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-	background-color: #3f51b5;
+	background-color: turquoise;
 	color: #fff;
 }
 
@@ -455,7 +455,7 @@ footer {
 
 .top-bar a:hover{
 	transform: scale(1.1);
-	color: #3f51b5;
+	color: turquoise;
 }
 
 .bottom-bar {
@@ -526,7 +526,7 @@ html, body {
 	padding-bottom: 10px;
 	margin: 100px 0 0 0;
 	letter-spacing: 4px;
-	color: #3f51b5;
+	color: turquoise;
 }
 .cd-container::after {
 	content: "";
