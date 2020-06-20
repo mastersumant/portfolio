@@ -81,9 +81,10 @@ $('.overlay').on('click', function(){
 function sendMail() {
   var link = "mailto:mastersumantkvs@gmail.com"
            + "?cc=sumantkumar.1si17te035@gmail.com"
-           + "&subject=" + escape("Regarding Your Portfolio Discriptions")
+           + "&subject=" + escape("Regarding Your Portfolio")
            + "&body=" + escape(document.getElementById('message').value)
   ;
 
   window.location.href = link;
 }
+
