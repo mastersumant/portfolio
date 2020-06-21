@@ -1,4 +1,14 @@
-html {
+
+html, body {
+	background-color: black;
+	height: 100%;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	padding: 0;
+	margin: 0;
+	background: #000;
+	color: #fff;
+	font-family: "Oxygen", sans-serif;
 	scroll-behavior: smooth;
 }
 *,
@@ -12,11 +22,7 @@ html {
 }
 
 body {
-	padding: 0;
-	margin: 0;
-	background: #000;
-	color: #fff;
-	font-family: "Oxygen", sans-serif;
+	
 }
 
 a {
@@ -47,6 +53,7 @@ li {
 	margin:0;
 }
 nav {
+	font-family: Cinzel;
 	text-align:center;
 	width:100%;
 	position:relative;
@@ -76,47 +83,48 @@ nav ul li a:hover {
 	color: #34B484;
 }
 /*styling open close button*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 780px) {
 	.button {
-		display:inline;
-		position: fixed;
-		left:10px;
-		top:6px;
-		z-index:9999;
-		font-size:30px;
-	}
-	.button a {
-		text-decoration:none;
-		color: #fff;
-	}
-	.btn-open:after {
-		color: turquoise;
-		content:"\f0c9";
-		font-family:"FontAwesome";
-		transition-property:all .2s linear 0s;
-		-moz-transition:all .2s linear 0s;
-		-webkit-transition:all .2s linear 0s;
-		-o-transition:all .2s linear 0s;
-	}
-	.btn-open:hover:after {
-		color:turquoise;
-	}
-	.btn-close:after {
-		color:#fff;
-		content:"\f00d";
-		font-family:"FontAwesome";
-		transition-property:all .2s linear 0s;
-		-moz-transition:all .2s linear 0s;
-		-webkit-transition:all .2s linear 0s;
-		-o-transition:all .2s linear 0s;
-	}
-	.btn-close:hover:after {
-		color: turquoise;
-	}
+	display:inline;
+	position: fixed;
+	left:10px;
+	top:6px;
+	z-index:9999;
+	font-size:30px;
+}
+.button a {
+	text-decoration:none;
+	color: #fff;
+}
+.btn-open:after {
+	color: turquoise;
+	content:"\f0c9";
+	font-family:"FontAwesome";
+	transition-property:all .2s linear 0s;
+	-moz-transition:all .2s linear 0s;
+	-webkit-transition:all .2s linear 0s;
+	-o-transition:all .2s linear 0s;
+}
+.btn-open:hover:after {
+	color:turquoise;
+}
+.btn-close:after {
+	color:#fff;
+	content:"\f00d";
+	font-family:"FontAwesome";
+	transition-property:all .2s linear 0s;
+	-moz-transition:all .2s linear 0s;
+	-webkit-transition:all .2s linear 0s;
+	-o-transition:all .2s linear 0s;
+}
+.btn-close:hover:after {
+	color: turquoise;
+}
   }
 
 /*overlay*/
 .overlay {
+	font-family: Cinzel;
 	display:none;
 	position:fixed;
 	top:0;
@@ -177,7 +185,7 @@ nav ul li a:hover {
 	color:#34B484;
 }
 
-@media screen and (max-width:48em) {
+@media screen and (max-width:780px) {
 	.wrap ul.wrap-nav>li {
 		width:100%;
 		padding:20px 0;
@@ -210,6 +218,7 @@ header {
 }
 
 header h1 {
+	font-family: 'Great Vibes';
 	font-weight: 300;
 	font-size: 4em;
 	letter-spacing: 4px;
@@ -217,6 +226,7 @@ header h1 {
 }
 
 header h5 {
+	font-family: Cinzel;
 	font-weight: 300;
 	font-size: 1em;
 	letter-spacing: 4px;
@@ -235,7 +245,10 @@ header h5 {
 
 .about h2,
 .folio h2,
-.contact h2 {
+.contact h2,
+.resume h2,
+.timeline h2 {
+	font-family: Cinzel;
 	font-weight: 300;
 	text-transform: uppercase;
 	padding-bottom: 10px;
@@ -245,15 +258,22 @@ header h5 {
 }
 
 .about p {
+	font-family: Bad Script;
 	color: #b2b2b2;
 }
-
+#skills p
+{
+	font-family: Cinzel;
+	color: #b2b2b2;
+}
 .about span {
 	font-weight: 600;
 	color: #fff;
 }
 
-.about h3 {
+.work h3,
+.func h3 {
+	font-family: Cinzel;
 	font-weight: 300;
 	margin: 50px 0;
 }
@@ -291,20 +311,15 @@ header h5 {
 
 
 /* =========== Folio =========== */
-.resume h2 {
-	font-weight: 300;
-	text-transform: uppercase;
-	padding-bottom: 10px;
-	margin: 100px 0 0 0;
-	letter-spacing: 4px;
-	color: turquoise;
-}
+
 .resume .func .work,
 .resume .func .edu {
   float: left;
 }
 .resume .func .work small,
 .resume .func .edu small {
+  font-family: Changa;
+  font-size: x-small;
   display: block;
   opacity: 0.7;
 }
@@ -372,9 +387,11 @@ header h5 {
   top: 0;
 }
 .resume .func .work ul li span {
+	font-family: Cinzel;
 	transition-duration: 0.3s;
 }
 .resume .func .edu ul li span {
+  font-family: Cinzel;
   transition-duration: 0.3s;
 }
 .resume .func .work {
@@ -431,6 +448,7 @@ input[type="submit"]:hover {
 }
 
 .contact .container {
+	font-family: Cinzel;
 	margin-top: 20px;
 	margin-bottom: 100px;
 	background: transparent;
@@ -462,8 +480,15 @@ footer {
 }
 
 .bottom-bar {
+	font-family: Changa;
 	background: #000;
 	font-size: 0.75em;
+	text-align: center;
+}
+.bottom-bar a{
+	font-family: Great Vibes;
+	background: #000;
+	font-size: 1.5em;
 	text-align: center;
 }
 /* Link-bar */
@@ -475,7 +500,7 @@ footer {
 
 .link-bar a {
 	margin: 10px;
-	font-size: 20px;
+	font-size: 1em;
 	color: #b2b2b2;
 	transition: all .35s;
 	display: inline-block;
@@ -526,13 +551,6 @@ footer {
 
 /*=========== project css=========*/
 
-html, body {
-	background-color: black;
-	height: 100%;
-	font-family: "Open Sans", sans-serif;
-	box-sizing: border-box;
-	scroll-behavior: smooth;
-}
 .cd-container {
 	width: 90%;
 	max-width: 1080px;
@@ -541,14 +559,7 @@ html, body {
 	padding: 0 10%;
 	border-radius: 2px;
 }
-.timeline h2 {
-	font-weight: 300;
-	text-transform: uppercase;
-	padding-bottom: 10px;
-	margin: 100px 0 0 0;
-	letter-spacing: 4px;
-	color: turquoise;
-}
+
 .cd-container::after {
 	content: "";
 	display: table;
@@ -585,6 +596,7 @@ html, body {
 	position: relative;
 	margin: 2em 0;
 }
+
 .cd-timeline-block:after {
 	content: "";
 	display: table;
@@ -632,7 +644,9 @@ html, body {
    }
 }
 .cd-timeline-content {
+	font-family: Cinzel;
 	position: relative;
+	font-size: inherit;
 	margin-left: 60px;
 	margin-right: 30px;
 	background: #333c42;
@@ -697,6 +711,7 @@ html, body {
 	display: inline-block;
 }
 .cd-timeline-content p {
+	font-family: Changa;
 	margin: 1em 0;
 	line-height: 1.6;
 }
@@ -716,6 +731,7 @@ html, body {
 		font-size: 1.25rem;
    }
 	.cd-timeline-content p {
+		font-family: Changa;
 		font-size: 16px;
 		font-size: 1rem;
    }
