@@ -251,14 +251,16 @@
         <section class="contact center" id="contact">
             <h2>Contact</h2>
             <div class="container">
-                <form action="mailto:mastersumantkvs@gmail.com" method="post" enctype="text/plain">
+                <form name="RegForm" action="action.php" onsubmit="return valid()" method="post" >
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name">
                     <label for="email">E-mail</label>
                     <input type="text" id="email" name="email" >
+                    <label for="phone">Contact number</label>
+                    <input type="text" id="phone" name="phone" >
                     <label for="message">Message</label>
                     <textarea id="message" name="message" style="height:200px"></textarea>
-                    <input style="font-family: Cinzel;"type="submit" onclick="sendMail(); return false"  value="message">
+                    <input style="font-family: Cinzel;" type="submit" href="#" value="message">
                 </form>
             </div>
         </section>
@@ -277,7 +279,7 @@
                 
             </section>
             <section class="bottom-bar">
-                <p>&copy All rights reserved | <a href="#about">Sumant Kr.</a></p>
+                <p>&copy All rights reserved | Sumant Kr</p>
             </section>
         </footer>
         <br>

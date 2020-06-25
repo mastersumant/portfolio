@@ -413,6 +413,7 @@ label {
 }
 
 form input[type="text"],
+form input[type="number"],
 select,
 textarea {
 	width: 100%;
